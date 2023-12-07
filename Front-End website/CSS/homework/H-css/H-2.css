@@ -1,0 +1,27 @@
+.box1{
+    width: 300px;
+    height: 500px;
+    border: 5px solid rgb(30, 43, 229);
+    border-radius: 10%;
+    background-color: green;
+    padding-top: 20px;
+    margin: 0px auto;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    border: 6px dashed rgb(21, 26, 154);
+    margin: 0px auto;
+    border-radius: 50%;
+}
+.box2 img{
+    width: 200px;
+    border-radius: 50%;
+}
+.box1 .box3{
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 30px;
+    color:rgb(198, 198, 212);
+    text-decoration: overline underline;
+}

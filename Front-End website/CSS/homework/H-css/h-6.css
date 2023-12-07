@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Moon+Dance&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Moon Dance', cursive;
+}
+:root{
+    --y: yellow;
+    --c: #0B061F;
+    --h: #434252;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--c);
+}
+h1{
+    font-size: 100px;
+    font-weight: 600;
+    color: var(--h);
+    text-shadow: none;
+    animation: kimna 5s  infinite linear;
+}
+@keyframes kimna{
+    0%,10%,20%,30%,51.6%,60%,65%,80%,90.18%,92%{
+        color: var(--h);
+        text-shadow: none;
+    }
+    5%,15%,25%,40%,45.5%,55%,63%,70%,75%,85%,95%,96.7%,100%{
+        color: var(--y);
+        text-align: 0 0 10px var(--y)
+                    0 0 20px var(--y)
+                    0 0 40px var(--y)
+                    0 0 80px var(--y)
+                    0 0 100px var(--y);
+    }
+}

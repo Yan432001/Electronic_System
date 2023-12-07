@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+</head>
+<body>
+    <form>
+        <table style="border: 1px solid grey; margin: auto; width: 500px; height: 400px; color: white; background-color: chocolate;" cellpadding="10px">
+            <tr>
+                <th colspan="2" style="text-decoration: underline; font-size: 30px">Register Form</th>
+            </tr>
+            <tr>
+                <td>FirsteName</td>
+                <td><input type="text" name="Fname" placeholder="Enter FirstName" style="width:95%"></td>
+            </tr>
+            <tr>
+                <td>LastName</td>
+                <td><input type="text" name="Lname" placeholder="Enter LastName" style="width:95%"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <label>
+                        <input type="radio" name="gender">Male
+                   </label>
+                   <label>
+                        <input type="radio" name="gender">Female
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>Date of Birth</td>
+                <td><input type="date" style="width:95%"></td>
+            </tr>
+            <tr>
+                <td>class</td>
+                <td>
+                    <select style="width:96%">
+                        <option value="0" hidden="">---choose the class--</option>
+                        <option value="1">M1</option>
+                        <option value="2">M2</option>
+                        <option value="3">M3</option>
+                        <option value="4">M4</option>
+                        <option value="5">M5</option>
+                        <option value="6">M6</option>
+                        <option value="7">E1</option>
+                        <option value="8">E2</option>
+                        <option value="9">E3</option>
+                        <option value="10">E4</option>
+                        <option value="11">E5</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" dir="rtl"><input type="submit">Register</td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+</html>

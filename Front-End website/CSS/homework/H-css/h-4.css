@@ -1,0 +1,22 @@
+.main {
+    margin:30px;
+    text-align:center;
+    }
+#para1{
+    height: 120px;
+    width: 180px;
+    background: darksalmon;
+    display: block;
+    }
+#para2{
+    height: 120px;
+    width: 180px;
+    background: olive;
+    display: block;
+    }
+#para3{
+    height: 120px;
+    width: 180px;
+    background: fuchsia;
+    display: block;
+    }

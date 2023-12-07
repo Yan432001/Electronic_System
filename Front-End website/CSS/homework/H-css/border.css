@@ -1,0 +1,15 @@
+.box1{
+    border: 2px solid burlywood;
+    width: 20%;
+    height: 50vh;
+    background-color: gray;
+    border-radius: 15%;
+}
+.box2{
+    border: 10px dashed red;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-image: url("../../download.jpg");
+    border-radius: 50%;
+}

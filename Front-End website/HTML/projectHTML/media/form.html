@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="About.html">About us</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+        <li><a href="form.html">Form</a></li>
+        <li><a href="BBU.html">BBU</a></li>
+        <li><a href="youtube.html">Youtube</a></li>
+    </ul><br>
+    <form>
+        <h1>Text Box in html form</h1>
+            <b>First Name:</b><input type="text" name="fname" size="40px" placeholder="Please Enter first name..."><br><br>
+            <b>Last Name:</b><input type="text" name="lname" size="40px" placeholder="Please Enter last name...">
+            <hr width="100%" border="2px" color="blue"><br>
+        <h1>Text Area in html form</h1>
+            <textarea rows="7" cols="80" name="comment">type your comment's here............</textarea>
+            <hr width="100%" border="2px" color="blue"><br>
+        <h1>Radio Button in htmll form</h1>
+            <b>Gender:</b>
+            <label><input type="radio" value="gender">Male</label>
+            <label><input type="radio" value="gender">Female</label>
+            <hr width="100%" border="2px" color="blue"><br>
+        <h1>Checkbox in html form</h1>
+            <b>Web Deverloper</b><br>
+            <label><input type="checkbox" value="HTML" name="web">HTML</label>
+            <label><input type="checkbox" value="CSS" name="web">CSS</label>
+            <label><input type="checkbox" value="jQuery" name="web">jQuery</label>
+            <label><input type="checkbox" value="JavaScript" name="web">JavaScript</label>
+            <label><input type="checkbox" value="PHP" name="web">PHP</label>
+            <label><input type="checkbox" value="MySQL" name="web">MySQL</label>
+            <hr width="100%" border="2px" color="blue"><br>
+        <h1>Select Option</h1>
+            <p>សូមជ្រើសរើសភាសាកម្មវិធីដែលអ្នកចង់សិក្សារ</p>
+            <select>
+                <option value="choose" hidden="">--choose program--</option>
+                <option value="c program">C Programe</option>
+                <option value="c++ program">C++ Programe</option>
+                <option value="c# program">C# Programe</option>
+                <option value="Java program">Java Programe</option>
+                <option value="python program">Python Programe</option>
+                <option value="NET program">NET Programe</option>
+            </select>
+            <hr width="100%" border="2px" color="blue"><br>
+        <h1>Select Option Croup</h1>
+            <b>About your favorite foot:</b>
+            <select name="item">
+                <optgroup label="vegtype">
+                    <option name="vegatable" hidden="">BUY</option>
+                    <option name="tomato">tomato</option>
+                    <option label="Cucumber">Cucumber</option>
+                    <option label="lemons">lemons</option>
+                </optgroup>
+                <optgroup label="fruittype">
+                    <option value="mango">mango</option>
+                    <option value="apple">Apple</option>
+                </optgroup>
+            </select>
+            <hr width="100%" border="2px" color="blue"><br>
+            <h1>Form Login</h1>
+            <b>User name:</b>
+            <input type="text" name="username" size="40px" placeholder="Enter your full name...."><br><br>
+            <b>E-mail:</b>
+            <input Type="email" name="email" size="40px" placeholder="Enter your G-mail.."><br><br>
+            <b>password:</b>
+            <input type="password" name="password" placeholder="Enter your password 
+            G-mail...."><br><br>
+            <input type="submit" value="Login"><br>
+
+            <hr width="100%" border="2px" color="blue"><br>
+            <input type="file" name="uploadfile" size="40px"><br><br>
+            <input type="date" size="40px">
+    </form>
+
+</body>
+</html>

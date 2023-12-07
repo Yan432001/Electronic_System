@@ -1,0 +1,19 @@
+img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+img{
+    border-top-width: 2px;
+    border-right-width: 4px;
+    border-bottom-width: 6px;
+    border-left-width: 8px;
+    border-top-style: solid;
+    border-right-style: dotted;
+    border-bottom-style: dashed;
+    border-left-style: groove;
+    border-top-color: #006100;
+    border-right-color: #050116;
+    border-bottom-color: #2ecc71;
+    border-left-color: #3498db;
+}
